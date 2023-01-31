@@ -1,2 +1,0 @@
-def token() -> str:
-    return "eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiI2ZGZiODQ2My00ODYxLTRkNmYtOWY0ZS02ZWZmZmZmNjRkMzkifQ=="
