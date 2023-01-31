@@ -1,0 +1,23 @@
+neptune:
+    api_token: ''
+options:
+    dataset:
+        train: 'trainvalset'
+        val: 'testset'
+        test: 'testset'
+        train_val_ratio: 0.9
+    num_classes: 10
+    resnet:
+        depth: 40
+        widen: 2
+    num_workers: 4
+    device: 'cuda'
+    max_epochs: 120
+    use_tqdm: False
+configs:
+    dropout_rate: 0.5
+    weight_decay: 1e-4
+    batch_size: 256
+    lr_init: 2e-2
+    lr_gamma: 0.1
+    lr_stepsize: 25
